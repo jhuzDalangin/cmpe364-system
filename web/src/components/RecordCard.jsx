@@ -1,4 +1,4 @@
-export default function RecordCard({ record }) {
+export default function RecordCard({ record, onDelete }) {
     return (
         <article>
             <h2>{record.title}</h2>
