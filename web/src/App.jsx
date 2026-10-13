@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import RecordCard from "./components/RecordCard";
 import { getRecords } from "./services/recordsApi";
+import RecordsPage from "./pages/RecordsPage";
 
 export default function App() {
   const [records, setRecords] = useState([]);
@@ -25,4 +26,7 @@ export default function App() {
       ))}
     </main>
   );
+
+  return <RecordsPage />;
 }
+

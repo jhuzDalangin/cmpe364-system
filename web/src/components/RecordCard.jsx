@@ -3,6 +3,7 @@ export default function RecordCard({ record }) {
         <article>
             <h2>{record.title}</h2>
             <p>Status: {record.status}</p>
+            <button type="button" onClick={() => onDelete(record.id)}>Delete</button>
         </article>
     );
 }
