@@ -46,12 +46,12 @@ export default function RecordsPage() {
             <h1>Records</h1>
 
             <RecordForm 
-            onAddRecord={addRecord} 
+            onAdd={addRecord} 
             />
 
             <RecordList 
                 records={records} 
-                onDeleteRecord={deleteRecord} 
+                onDelete={deleteRecord} 
             />
         </main>
     );
