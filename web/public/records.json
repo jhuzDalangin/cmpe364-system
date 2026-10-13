@@ -1,0 +1,4 @@
+[
+  { "id": 1, "title": "Sample Record", "status": "open" },
+  { "id": 2, "title": "Second Record", "status": "closed" }
+]
