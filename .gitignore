@@ -1,0 +1,17 @@
+# Web / mobile dependencies
+web/node_modules
+mobile/node_modules/
+web/dist/
+mobile/.expo/
+
+# Pyhon environment and cache
+backend/.venv/
+**/__pycache_/
+*.pyc
+
+# Local secrets / environment files
+.env
+.env.*
+
+# Common IDE-local files
+.idea/
